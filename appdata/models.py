@@ -6,3 +6,6 @@ class data(models.Model):
 
     def get_absolute_url(self):
         return reverse('data-list')
+    
+    def __str__(self):
+        return self.info

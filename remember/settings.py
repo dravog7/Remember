@@ -38,7 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'appdata',
+    'appdata.apps.AppdataConfig', #add like this to make sure migrate process this as well
 ]
 
 MIDDLEWARE = [

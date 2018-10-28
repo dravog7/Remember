@@ -1,0 +1,8 @@
+<h1>Data</h1>
+<ul>
+{% for data in object_list %}
+    <li>{{ data.info}}</li>
+{% empty %}
+    <li>No articles yet.</li>
+{% endfor %}
+</ul>
